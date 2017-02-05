@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BooksService } from '../../app/services/books.service';
-import { Book } from '../../app/interfces/bookInterface'
+import { Book } from '../../app/interfaces/bookInterface'
 
 import { NavController, NavParams } from 'ionic-angular';
 
