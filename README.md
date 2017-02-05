@@ -1,23 +1,6 @@
-Ionic Books App, hybrid mobile application 
+Ionic Books App, hybrid mobile application.
+This app was created and tested on Mac OS, Iphone, Ipad
 
-##Quick start
+See example in Ionic View App in your iphone or ipad
 
-###Install dependencies
-```
-npm install
-```
-####Dev
-```
-npm run dev
-```
-In your browser, navigate to: http://localhost:8080/
-####Test
-```
-npm run test
-```
-
-####Production
-```
-npm run build 
-```
-Copy everything in `build/` folder to the server.
+##ID: BD32A074
