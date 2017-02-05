@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      {{book.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <img src="{{book.field_books_image}}">
+    <ion-card-content>
+      <ion-card-title>
+        {{book.title}}
+      </ion-card-title>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="book" item-left></ion-icon>
+          <ion-note>
+            Book ID in DataBase: {{book.nid}}
+          </ion-note>
+          <ion-note>
+            Book type: {{book.type}}
+          </ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

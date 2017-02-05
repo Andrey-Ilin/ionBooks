@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Ionic Books App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let book of books">
+      <ion-thumbnail *ngIf="book.field_books_image" item-left>
+        <img src="{{book.field_books_image}}">
+      </ion-thumbnail>
+      <h2>{{book.title}}</h2>
+      <button ion-button clear item-right (click)="viewBook(book.nid)">MORE</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
